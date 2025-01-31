@@ -17,8 +17,5 @@ sample estimates:
        cor 
 -0.8676594 
 
-res2 <-cor.test(my_data$wt, my_data$mpg, method = "spearman")
-res2
-
 #Test relationship between wt and mpg
 #Hypothesis: When wt of car is more, then mpg is less and when wt is less then mpg is more
